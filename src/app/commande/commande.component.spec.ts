@@ -10,8 +10,8 @@ describe('CommandeComponent', () => {
     await TestBed.configureTestingModule({
       imports: [CommandeComponent]
     })
-    .compileComponents();
-    
+      .compileComponents();
+
     fixture = TestBed.createComponent(CommandeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

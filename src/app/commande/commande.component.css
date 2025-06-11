@@ -1,0 +1,43 @@
+/* styles.css ou commande.component.css */
+
+.card {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.form-control {
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.alert-info {
+  font-size: 16px;
+}
+
+/* styles.css ou commande.component.css */
+
+.invalid-feedback {
+  color: #dc3545; /* Couleur rouge pour les messages d'erreur */
+  font-size: 0.875em; /* Taille de police légèrement plus petite */
+  display: block; /* Assurez-vous que le message d'erreur s'affiche sous le champ */
+}

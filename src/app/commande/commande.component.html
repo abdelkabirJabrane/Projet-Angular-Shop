@@ -1,1 +1,87 @@
-<p>commande works!</p>
+<div class="container mt-5">
+  <form [formGroup]="orderForm" (ngSubmit)="submitOrder()">
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="card h-100">
+          <div class="card-header">
+            <h4>Informations de l'utilisateur</h4>
+          </div>
+          <div class="card-body">
+            <div class="form-group">
+              <label for="firstName">Prénom</label>
+              <input type="text" id="firstName" class="form-control" formControlName="firstName">
+            </div>
+            <div class="form-group mt-3">
+              <label for="lastName">Nom</label>
+              <input type="text" id="lastName" class="form-control" formControlName="lastName">
+            </div>
+            <div class="form-group mt-3">
+              <label for="address">Adresse</label>
+              <input type="text" id="address" class="form-control" formControlName="address">
+            </div>
+            <div class="form-group mt-3">
+              <label for="phone">Téléphone</label>
+              <input type="text" id="phone" class="form-control" formControlName="phone">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-4">
+        <div class="card h-100">
+          <div class="card-header">
+            <h2>Passer la commande pour {{ cartDetails.productName }} </h2>
+            <img [src]="cartDetails.image" alt="{{ cartDetails.productName }}" class="img-thumbnail" width="100" height="100" />
+          </div>
+          <div class="card-body">
+            <div class="form-group">
+              <label for="cardNumber">Numéro de carte</label>
+              <input type="text" id="cardNumber" class="form-control" formControlName="cardNumber">
+            </div>
+            <div class="form-group mt-3">
+              <label for="expirationDate">Date d'expiration (dd/mm/yyyy)</label>
+              <input type="text" id="expirationDate" class="form-control" formControlName="expirationDate">
+            </div>
+            <button type="submit" class="btn btn-success mt-3" [disabled]="orderForm.invalid">Passer la commande</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+
+  <div *ngIf="submittedOrder" class="row mt-5">
+    <div class="col-md-6 mb-4">
+      <div class="card h-100">
+        <div class="card-header">
+          <h4>Informations de l'utilisateur</h4>
+        </div>
+        <div class="card-body">
+          <p><strong>Prénom:</strong> {{ submittedOrder.firstName }}</p>
+          <p><strong>Nom:</strong> {{ submittedOrder.lastName }}</p>
+          <p><strong>Adresse:</strong> {{ submittedOrder.address }}</p>
+          <p><strong>Téléphone:</strong> {{ submittedOrder.phone }}</p>
+          <p><strong>Numéro de carte:</strong> {{ submittedOrder.cardNumber }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 mb-4">
+      <div class="card h-100">
+        <div class="card-header">
+          <h4>Détails de la commande</h4>
+        </div>
+        <div class="card-body">
+          <p><strong>Nom du produit :</strong> {{ cartDetails.productName }}</p>
+          <img *ngIf="image" [src]="image" alt="Product Image" class="img-thumbnail" width="100" height="100" />
+          <p><strong>Date d'expiration:</strong> {{ submittedOrder.expirationDate }}</p>
+          <p><strong>Email:</strong> {{ email }}</p>
+          <p><strong>Quantité:</strong> {{ quantity }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="message" class="alert alert-success mt-3">
+    {{ message }}
+  </div>
+</div>
