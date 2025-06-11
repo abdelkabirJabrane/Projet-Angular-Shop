@@ -80,7 +80,7 @@
   "users": [
     {
       "id": "0",
-      "email": "ghalimyassine4@gmail.com",
+      "email": "abdelkabir.jabrane4@gmail.com",
       "password": "123123123",
       "roles": [
         "USER"
@@ -88,7 +88,7 @@
     },
     {
       "id": "0",
-      "email": "ghalimyassine3@gmail.com",
+      "email": "abdelkabir.jabrane3@gmail.com",
       "password": "00000000",
       "roles": [
         "USER"
@@ -96,7 +96,7 @@
     },
     {
       "id": "01",
-      "email": "ghalimyassine34@gmail.com",
+      "email": "abdelkabir.jabrane34@gmail.com",
       "password": "11111111",
       "roles": [
         "USER"
@@ -104,7 +104,7 @@
     },
     {
       "id": "09",
-      "email": "ghalimyassine77@gmail.com",
+      "email": "abdelkabir.jabrane77@gmail.com",
       "password": "11111111",
       "roles": [
         "ADMIN"
@@ -112,7 +112,7 @@
     },
     {
       "id": "011",
-      "email": "ghalimyassine8@gmail.com",
+      "email": "abdelkabir.jabrane8@gmail.com",
       "password": "aaaabbbb",
       "roles": [
         "USER"
@@ -130,7 +130,7 @@
   "carts": [
     {
       "id": "b4171676-480c-4e84-a9a4-a131c79ebf14",
-      "email": "ghalimyassine4@gmail.com",
+      "email": "abdelkabir.jabrane4@gmail.com",
       "productId": "1716849196139",
       "quantity": 1,
       "productName": "Xiaomi Tablette Pad 6S Pro 3K 12.4",
@@ -139,7 +139,7 @@
     },
     {
       "id": "7ab2a706-1011-4e3b-839a-7f7074211005",
-      "email": "ghalimyassine4@gmail.com",
+      "email": "abdelkabir.jabrane4@gmail.com",
       "productId": "1716849287723",
       "quantity": 1,
       "productName": "Sony Xperia 10 IV",
@@ -148,7 +148,7 @@
     },
     {
       "id": "19d95ff5-7edd-482a-bdbf-80bc58bfbbe8",
-      "email": "ghalimyassine4@gmail.com",
+      "email": "abdelkabir.jabrane4@gmail.com",
       "productId": "1716849061420",
       "quantity": 1,
       "productName": "Doro Tablet",
@@ -157,7 +157,7 @@
     },
     {
       "id": "5dbf6cfa-5e15-41ea-9a8e-109c9cec6cad",
-      "email": "ghalimyassine4@gmail.com",
+      "email": "abdelkabir.jabrane4@gmail.com",
       "productId": "1716849287723",
       "quantity": 1,
       "productName": "Sony Xperia 10 IV",
@@ -166,7 +166,7 @@
     },
     {
       "id": "afe0cf61-25b4-45c1-9ae6-4f297fc99901",
-      "email": "ghalimyassine4@gmail.com",
+      "email": "abdelkabir.jabrane4@gmail.com",
       "productId": "1716848823707",
       "quantity": 1,
       "productName": "HP Full Station PC 8200 I5",
@@ -175,7 +175,7 @@
     },
     {
       "id": "1a53fb52-941e-441d-a30b-3965c7499f11",
-      "email": "ghalimyassine4@gmail.com",
+      "email": "abdelkabir.jabrane4@gmail.com",
       "productId": "1716848823707",
       "quantity": 1,
       "productName": "HP Full Station PC 8200 I5",
@@ -184,7 +184,7 @@
     },
     {
       "id": "f3eaed7f-cd81-41d2-a0dc-cc88c4bf0226",
-      "email": "ghalimyassine4@gmail.com",
+      "email": "abdelkabir.jabrane4@gmail.com",
       "productId": "1716848823707",
       "quantity": 1,
       "productName": "HP Full Station PC 8200 I5",
@@ -193,7 +193,7 @@
     },
     {
       "id": "be9f53f7-c0cf-4b8c-8263-0263aaaada17",
-      "email": "ghalimyassine4@gmail.com",
+      "email": "abdelkabir.jabrane4@gmail.com",
       "productId": "1716848875434",
       "quantity": 1,
       "productName": "Samsung Galaxy Book3 360",
@@ -202,7 +202,7 @@
     },
     {
       "id": "700bd475-b007-4b4c-a773-bf3ef4d2108f",
-      "email": "ghalimyassine4@gmail.com",
+      "email": "abdelkabir.jabrane4@gmail.com",
       "productId": "1716848875434",
       "quantity": 1,
       "productName": "Samsung Galaxy Book3 360",
@@ -211,7 +211,7 @@
     },
     {
       "id": "fe04e447-c019-42cd-b095-42971e34d048",
-      "email": "ghalimyassine34@gmail.com",
+      "email": "abdelkabir.jabrane34@gmail.com",
       "productId": "1716849196139",
       "quantity": 1,
       "productName": "Xiaomi Tablette Pad 6S Pro 3K 12.4",
@@ -220,7 +220,7 @@
     },
     {
       "id": "200a66be-8fae-4dfe-b0df-1e76b314063f",
-      "email": "ghalimyassine34@gmail.com",
+      "email": "abdelkabir.jabrane34@gmail.com",
       "productId": "1716849196139",
       "quantity": 1,
       "productName": "Xiaomi Tablette Pad 6S Pro 3K 12.4",
@@ -229,7 +229,7 @@
     },
     {
       "id": "9cadfacf-66c7-41bf-813c-26d80861764a",
-      "email": "ghalimyassine34@gmail.com",
+      "email": "abdelkabir.jabrane34@gmail.com",
       "productId": "1716849122872",
       "quantity": 1,
       "productName": "Cat S75 ",
@@ -238,7 +238,7 @@
     },
     {
       "id": "8cc8f042-9b92-47e5-87b5-6ff2a358d743",
-      "email": "ghalimyassine34@gmail.com",
+      "email": "abdelkabir.jabrane34@gmail.com",
       "productId": "1716849122872",
       "quantity": 1,
       "productName": "Cat S75 ",
@@ -247,7 +247,7 @@
     },
     {
       "id": "051bbc68-d046-4366-8a0d-94a1a71f0a45",
-      "email": "ghalimyassine34@gmail.com",
+      "email": "abdelkabir.jabrane34@gmail.com",
       "productId": "1716849122872",
       "quantity": 1,
       "productName": "Cat S75 ",
@@ -256,7 +256,7 @@
     },
     {
       "id": "706b4f69-2b8d-4bfc-95b2-48dc4aa7b8ef",
-      "email": "ghalimyassine4@gmail.com",
+      "email": "abdelkabir.jabrane4@gmail.com",
       "productId": "1716848923042",
       "quantity": 1,
       "productName": "Acer Swift Go 16 SFG16-71-55H7",
@@ -265,7 +265,7 @@
     },
     {
       "id": "999e12b2-d96f-48ab-8f26-80462799acee",
-      "email": "ghalimyassine4@gmail.com",
+      "email": "abdelkabir.jabrane4@gmail.com",
       "productId": "1716848923042",
       "quantity": 1,
       "productName": "Acer Swift Go 16 SFG16-71-55H7",
@@ -274,7 +274,7 @@
     },
     {
       "id": "333decc0-bbee-4c85-b5e8-a3c4d80b6d4a",
-      "email": "ghalimyassine4@gmail.com",
+      "email": "abdelkabir.jabrane4@gmail.com",
       "productId": "1716848923042",
       "quantity": 1,
       "productName": "Acer Swift Go 16 SFG16-71-55H7",
@@ -283,7 +283,7 @@
     },
     {
       "id": "90c4da44-fcf1-45d8-9dee-d47aecdfefe9",
-      "email": "ghalimyassine4@gmail.com",
+      "email": "abdelkabir.jabrane4@gmail.com",
       "productId": "1716848923042",
       "quantity": 1,
       "productName": "Acer Swift Go 16 SFG16-71-55H7",
@@ -292,7 +292,7 @@
     },
     {
       "id": "15b7090d-2ff9-4301-a448-612880cd6089",
-      "email": "ghalimyassine4@gmail.com",
+      "email": "abdelkabir.jabrane4@gmail.com",
       "productId": "1716848923042",
       "quantity": 1,
       "productName": "Acer Swift Go 16 SFG16-71-55H7",
@@ -301,7 +301,7 @@
     },
     {
       "id": "0e6dd21c-52ce-445e-84a4-9ea0c286f3a1",
-      "email": "ghalimyassine4@gmail.com",
+      "email": "abdelkabir.jabrane4@gmail.com",
       "productId": "1716848923042",
       "quantity": 1,
       "productName": "Acer Swift Go 16 SFG16-71-55H7",
@@ -310,7 +310,7 @@
     },
     {
       "id": "3ffbf6ac-656b-4d2a-92bc-e47b7134044d",
-      "email": "ghalimyassine34@gmail.com",
+      "email": "abdelkabir.jabrane34@gmail.com",
       "productId": "1716848875434",
       "quantity": 1,
       "productName": "Samsung Galaxy Book3 360",
@@ -319,7 +319,7 @@
     },
     {
       "id": "b85239fc-6a7a-4c08-9353-63d5a113ad13",
-      "email": "ghalimyassine34@gmail.com",
+      "email": "abdelkabir.jabrane34@gmail.com",
       "productId": "1716848875434",
       "quantity": 1,
       "productName": "Samsung Galaxy Book3 360",
@@ -328,7 +328,7 @@
     },
     {
       "id": "26de6069-5345-4d9f-98e0-5768c48feb0c",
-      "email": "ghalimyassine34@gmail.com",
+      "email": "abdelkabir.jabrane34@gmail.com",
       "productId": "1716848875434",
       "quantity": 1,
       "productName": "Samsung Galaxy Book3 360",
@@ -337,7 +337,7 @@
     },
     {
       "id": "fe8fc6e9-c280-44eb-968e-2ccd476d706f",
-      "email": "ghalimyassine34@gmail.com",
+      "email": "abdelkabir.jabrane34@gmail.com",
       "productId": "1716848875434",
       "quantity": 1,
       "productName": "Samsung Galaxy Book3 360",
@@ -346,7 +346,7 @@
     },
     {
       "id": "100abc1d-e5bf-4786-b930-a93a90b4c13b",
-      "email": "ghalimyassine34@gmail.com",
+      "email": "abdelkabir.jabrane34@gmail.com",
       "productId": "1716848875434",
       "quantity": 1,
       "productName": "Samsung Galaxy Book3 360",
@@ -355,7 +355,7 @@
     },
     {
       "id": "222ef386-04d4-4582-a802-00f8c3815857",
-      "email": "ghalimyassine4@gmail.com",
+      "email": "abdelkabir.jabrane4@gmail.com",
       "productId": "1716848875434",
       "quantity": 1,
       "productName": "Samsung Galaxy Book3 360",
@@ -364,7 +364,7 @@
     },
     {
       "id": "250c7006-6797-49ea-8826-8ca2d4d0b74e",
-      "email": "ghalimyassine4@gmail.com",
+      "email": "abdelkabir.jabrane4@gmail.com",
       "productId": "1716848875434",
       "quantity": 1,
       "productName": "Samsung Galaxy Book3 360",
@@ -373,7 +373,7 @@
     },
     {
       "id": "2ecd260f-dfcc-45a0-9f8c-643f8369734b",
-      "email": "ghalimyassine4@gmail.com",
+      "email": "abdelkabir.jabrane4@gmail.com",
       "productId": "1716848875434",
       "quantity": 1,
       "productName": "Samsung Galaxy Book3 360",
@@ -382,7 +382,7 @@
     },
     {
       "id": "36b8ba1c-1ae1-4098-a68b-73091489ed6b",
-      "email": "ghalimyassine4@gmail.com",
+      "email": "abdelkabir.jabrane4@gmail.com",
       "productId": "1716849122872",
       "quantity": 1,
       "productName": "Cat S75 ",
@@ -391,7 +391,7 @@
     },
     {
       "id": "123293b2-9696-458b-ad00-90af42b5a9d4",
-      "email": "ghalimyassine4@gmail.com",
+      "email": "abdelkabir.jabrane4@gmail.com",
       "productId": "1716849122872",
       "quantity": 1,
       "productName": "Cat S75 ",
@@ -400,7 +400,7 @@
     },
     {
       "id": "2737ee7b-cfad-4ccb-82e8-9fc7f2e34061",
-      "email": "ghalimyassine34@gmail.com",
+      "email": "abdelkabir.jabrane34@gmail.com",
       "productId": "1716849061420",
       "quantity": 1,
       "productName": "Doro Tablet",
@@ -409,7 +409,7 @@
     },
     {
       "id": "c2665bc3-3ee1-4634-885f-7ce085d673bd",
-      "email": "ghalimyassine34@gmail.com",
+      "email": "abdelkabir.jabrane34@gmail.com",
       "productId": "1716849196139",
       "quantity": 1,
       "productName": "Xiaomi Tablette Pad 6S Pro 3K 12.4",
@@ -418,7 +418,7 @@
     },
     {
       "id": "b7ba1224-2b6d-4769-b432-f8b26e0075d4",
-      "email": "ghalimyassine34@gmail.com",
+      "email": "abdelkabir.jabrane34@gmail.com",
       "productId": "1716849003865",
       "quantity": 1,
       "productName": "Samsung Galaxy A14 5G",
@@ -427,7 +427,7 @@
     },
     {
       "id": "5ffb358b-c3b4-4e23-8a04-573032f706f7",
-      "email": "ghalimyassine34@gmail.com",
+      "email": "abdelkabir.jabrane34@gmail.com",
       "productId": "1716849122872",
       "quantity": 1,
       "productName": "Cat S75 ",
@@ -436,7 +436,7 @@
     },
     {
       "id": "0cdebfc2-53a6-4d1f-80fe-e7e2c838cc53",
-      "email": "ghalimyassine34@gmail.com",
+      "email": "abdelkabir.jabrane34@gmail.com",
       "productId": "1716849287723",
       "quantity": 1,
       "productName": "Sony Xperia 10 IV",
@@ -449,7 +449,7 @@
       "id": "2d25",
       "productId": "3ffbf6ac-656b-4d2a-92bc-e47b7134044d",
       "quantity": 15,
-      "email": "ghalimyassine34@gmail.com",
+      "email": "abdelkabir.jabrane34@gmail.com",
       "image": "assets/images/PC2.jpg",
       "status": "pending",
       "firstName": "YASSINE",
@@ -463,7 +463,7 @@
       "id": "440b",
       "productId": "9cadfacf-66c7-41bf-813c-26d80861764a",
       "quantity": 9,
-      "email": "ghalimyassine34@gmail.com",
+      "email": "abdelkabir.jabrane34@gmail.com",
       "image": "assets/images/PH2.jpg",
       "status": "pending",
       "firstName": "YASSINE",
@@ -477,7 +477,7 @@
       "id": "5aa0",
       "productId": "706b4f69-2b8d-4bfc-95b2-48dc4aa7b8ef",
       "quantity": 6,
-      "email": "ghalimyassine4@gmail.com",
+      "email": "abdelkabir.jabrane4@gmail.com",
       "image": "assets/images/PC3.jpg",
       "status": "pending",
       "firstName": "YASSINE4",
@@ -491,7 +491,7 @@
       "id": "4273",
       "productId": "afe0cf61-25b4-45c1-9ae6-4f297fc99901",
       "quantity": 3,
-      "email": "ghalimyassine4@gmail.com",
+      "email": "abdelkabir.jabrane4@gmail.com",
       "image": "assets/images/pc1.jpg",
       "status": "pending",
       "firstName": "YASSINE4",
@@ -505,7 +505,7 @@
       "id": "032a",
       "productId": "be9f53f7-c0cf-4b8c-8263-0263aaaada17",
       "quantity": 5,
-      "email": "ghalimyassine4@gmail.com",
+      "email": "abdelkabir.jabrane4@gmail.com",
       "image": "assets/images/PC2.jpg",
       "status": "pending",
       "firstName": "YASSINE4",
@@ -519,7 +519,7 @@
       "id": "0a66",
       "productId": "be9f53f7-c0cf-4b8c-8263-0263aaaada17",
       "quantity": 5,
-      "email": "ghalimyassine4@gmail.com",
+      "email": "abdelkabir.jabrane4@gmail.com",
       "image": "assets/images/PC2.jpg",
       "status": "pending",
       "firstName": "YASSINE4",
@@ -533,7 +533,7 @@
       "id": "e92a",
       "productId": "36b8ba1c-1ae1-4098-a68b-73091489ed6b",
       "quantity": 2,
-      "email": "ghalimyassine4@gmail.com",
+      "email": "abdelkabir.jabrane4@gmail.com",
       "image": "assets/images/PH2.jpg",
       "status": "pending",
       "firstName": "YASSINE4",
@@ -547,7 +547,7 @@
       "id": "7db1",
       "productId": "fe04e447-c019-42cd-b095-42971e34d048",
       "quantity": 3,
-      "email": "ghalimyassine34@gmail.com",
+      "email": "abdelkabir.jabrane34@gmail.com",
       "image": "assets/images/tab1.jpg",
       "status": "pending",
       "firstName": "ABDELKABIR",

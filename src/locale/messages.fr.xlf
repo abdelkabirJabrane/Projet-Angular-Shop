@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="1790234586531719509" datatype="html">
+        <source> Buy </source>
+        <target> Acheter </target>
+      </trans-unit>
+      <trans-unit id="3476583629594890489" datatype="html">
+        <source> Home </source>
+        <target> Accueil </target>
+      </trans-unit>
+      <trans-unit id="5954035767530395847" datatype="html">
+        <source>Discover a world of amazing products</source>
+        <target>Découvrez un monde de produits étonnants</target>
+      </trans-unit>
+      <trans-unit id="4466558088219209219" datatype="html">
+        <source> Welcome to our e-commerce platform where you can explore a wide range of high-quality products. Start your shopping today and experience the convenience of online shopping with us! </source>
+        <target> Bienvenue sur notre plateforme de commerce électronique où vous pouvez explorer une large gamme de produits de haute qualité. Commencez vos achats aujourd'hui et découvrez la commodité du shopping en ligne avec nous ! </target>
+      </trans-unit>
+      <trans-unit id="1322474797861200181" datatype="html">
+        <source> Total Price: <x id="INTERPOLATION" equiv-text="{{ calculateTotalPrice() | currency:'USD':'symbol':'1.2-2' }}"/> </source>
+        <target> Prix total : <x id="INTERPOLATION" equiv-text="{{ calculateTotalPrice() | currency:'USD':'symbol':'1.2-2' }}"/> </target>
+      </trans-unit>
+      <trans-unit id="3012906865384504293" datatype="html">
+        <source> Image </source>
+        <target> Image </target>
+      </trans-unit>
+      <trans-unit id="1675111088809005753" datatype="html">
+        <source> Product Name </source>
+        <target> Nom du produit </target>
+      </trans-unit>
+      <trans-unit id="8894377483833272091" datatype="html">
+        <source> Price </source>
+        <target> Prix </target>
+      </trans-unit>
+      <trans-unit id="9216117865911519658" datatype="html">
+        <source> Action </source>
+        <target> Action </target>
+      </trans-unit>
+      <trans-unit id="4814285799071780083" datatype="html">
+        <source> Delete </source>
+        <target> Supprimer </target>
+      </trans-unit>
+      <trans-unit id="5609220492185313571" datatype="html">
+        <source>Your cart is empty.</source>
+        <target>Votre panier est vide.</target>
+      </trans-unit>
+      <trans-unit id="2821179408673282599" datatype="html">
+        <source> Home </source>
+        <target> Accueil </target>
+      </trans-unit>
+      <trans-unit id="6707361102856436710" datatype="html">
+        <source> Products </source>
+        <target> Produits </target>
+      </trans-unit>
+      <trans-unit id="1184053335380431531" datatype="html">
+        <source> Product Categories </source>
+        <target> Catégories de produits </target>
+      </trans-unit>
+      <trans-unit id="7730018952284716553" datatype="html">
+        <source> Tablets </source>
+        <target> Tablettes </target>
+      </trans-unit>
+      <trans-unit id="5762151072276461448" datatype="html">
+        <source> Phones </source>
+        <target> Téléphones </target>
+      </trans-unit>
+      <trans-unit id="8618868666624269972" datatype="html">
+        <source> Computers </source>
+        <target> Ordinateurs </target>
+      </trans-unit>
+      <trans-unit id="5133287683090293412" datatype="html">
+        <source> Logout </source>
+        <target> Déconnexion </target>
+      </trans-unit>
+      <trans-unit id="6581553898051050183" datatype="html">
+        <source>Contact us for more information</source>
+        <target> Contactez-nous pour plus d'informations </target>
+      </trans-unit>
+      <trans-unit id="8722846418354482005" datatype="html">
+        <source>Phone: 0635185425</source>
+        <target>Téléphone: 0635185425</target>
+      </trans-unit>
+      <trans-unit id="6871151324932366999" datatype="html">
+        <source>Edit Product</source>
+        <target>Modifier le produit</target>
+      </trans-unit>
+      <trans-unit id="7658402240953727096" datatype="html">
+        <source>Name:</source>
+        <target>Nom :</target>
+      </trans-unit>
+      <trans-unit id="6996799422725544865" datatype="html">
+        <source>Description:</source>
+        <target>Description :</target>
+      </trans-unit>
+      <trans-unit id="6516656068444122993" datatype="html">
+        <source>Quantity:</source>
+        <target>Quantité :</target>
+      </trans-unit>
+      <trans-unit id="2160195252594102717" datatype="html">
+        <source>Price:</source>
+        <target>Prix :</target>
+      </trans-unit>
+      <trans-unit id="7501118874506324997" datatype="html">
+        <source>Category:</source>
+        <target>Catégorie :</target>
+      </trans-unit>
+      <trans-unit id="2484003251853825332" datatype="html">
+        <source>Upload Image:</source>
+        <target>Télécharger l'image :</target>
+      </trans-unit>
+      <trans-unit id="2220477572935143486" datatype="html">
+        <source>Update Product</source>
+        <target>Mettre à jour le produit</target>
+      </trans-unit>
+      <trans-unit id="3347982024221345780" datatype="html">
+        <source>Please login to your account</source>
+        <target>Veuillez vous connecter à votre compte</target>
+      </trans-unit>
+      <trans-unit id="5248717555542428023" datatype="html">
+        <source>Username</source>
+        <target>Nom d'utilisateur</target>
+      </trans-unit>
+      <trans-unit id="1431416938026210429" datatype="html">
+        <source>Password</source>
+        <target>Mot de passe</target>
+      </trans-unit>
+      <trans-unit id="2336550011721758066" datatype="html">
+<source>Log in</source>
+<target>Se connecter</target>
+</trans-unit>
+<trans-unit id="1479499506217434996" datatype="html">
+<source>if u don't have an account</source>
+<target>Si vous n'avez pas de compte</target>
+</trans-unit>
+<trans-unit id="1466012768716286509" datatype="html">
+<source>Sign Up</source>
+<target>S'inscrire</target>
+</trans-unit>
+<trans-unit id="2727496946419791472" datatype="html">
+<source>Forgot password?</source>
+<target>Mot de passe oublié ?</target>
+</trans-unit>
+<trans-unit id="1088075587003437298" datatype="html">
+<source>Create a new product</source>
+<target>Créer un nouveau produit</target>
+</trans-unit>
+<trans-unit id="4902817035128594900" datatype="html">
+<source>Description</source>
+<target>Description</target>
+</trans-unit>
+<trans-unit id="6762504134540024018" datatype="html">
+<source>Quantity</source>
+<target>Quantité</target>
+</trans-unit>
+<trans-unit id="1806667489382256324" datatype="html">
+<source>Category</source>
+<target>Catégorie</target>
+</trans-unit>
+<trans-unit id="5408055341384826020" datatype="html">
+<source>Create Product</source>
+<target>Créer un produit</target>
+</trans-unit>
+<trans-unit id="8883809582278207092" datatype="html">
+<source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="<b>"/>Show more<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="</b>"/></source>
+<target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="<b>"/>Afficher plus<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="</b>"/></target>
+</trans-unit>
+<trans-unit id="2536830073000085006" datatype="html">
+<source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="<b>"/>Price: <x id="INTERPOLATION" equiv-text="{{ product.price }}"/> $<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="</b>"/></source>
+<target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="<b>"/>Prix : <x id="INTERPOLATION" equiv-text="{{ product.price }}"/> $<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="</b>"/></target>
+</trans-unit>
+<trans-unit id="363844493675202114" datatype="html">
+<source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="<b>"/>Hide details<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="</b>"/></source>
+<target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="<b>"/>Masquer les détails<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="</b>"/></target>
+</trans-unit>
+<trans-unit id="3228303734702633439" datatype="html">
+<source>Quantity available: <x id="INTERPOLATION" equiv-text="{{ product.quantity }}"/></source>
+<target>Quantité disponible : <x id="INTERPOLATION" equiv-text="{{ product.quantity }}"/></target>
+</trans-unit>
+<trans-unit id="4308928512360561016" datatype="html">
+<source> Product out of stock! </source>
+<target> Produit en rupture de stock ! </target>
+</trans-unit>
+<trans-unit id="273057950586819423" datatype="html">
+<source> Remaining quantity less than 5! </source>
+<target> Quantité restante inférieure à 5 ! </target>
+</trans-unit>
+<trans-unit id="6041344013318328107" datatype="html">
+<source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="<b>"/>On sale<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="</b>"/></source>
+<target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="<b>"/>En vente<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="</b>"/></target>
+</trans-unit>
+<trans-unit id="3340499751129543153" datatype="html">
+<source> Product added to cart successfully! </source>
+<target> Produit ajouté au panier avec succès ! </target>
+</trans-unit>
+<trans-unit id="1267967133679326155" datatype="html">
+<source>Create Account</source>
+<target>Créer un compte</target>
+</trans-unit>
+<trans-unit id="6631334172623029500" datatype="html">
+<source>Email:</source>
+<target>Email :</target>
+</trans-unit>
+<trans-unit id="6865009229971482891" datatype="html">
+<source>Password:</source>
+<target>Mot de passe :</target>
+</trans-unit>
+<trans-unit id="490171116031324854" datatype="html">
+<source>The password must contain at least 8 characters.</source>
+<target>Le mot de passe doit contenir au moins 8 caractères.</target>
+</trans-unit>
+<trans-unit id="539810244244331475" datatype="html">
+<source>Confirm Password:</source>
+<target>Confirmer le mot de passe :</target>
+</trans-unit>
+<trans-unit id="3301086086650990787" datatype="html">
+<source>Register</source>
+<target>S'inscrire</target>
+</trans-unit>
+<trans-unit id="840692109692540367" datatype="html">
+<source>Sign In</source>
+<target>Se connecter</target>
+</trans-unit>
+<trans-unit id="1104515725787228062" datatype="html">
+<source>Welcome to our platform</source>
+<target>Bienvenue sur notre plateforme</target>
+</trans-unit>
+<trans-unit id="4474750461995412653" datatype="html">
+<source>Discover a world of amazing products in our online store. We offer a wide range of high-quality products to meet all your needs. From electronics to household items, we have everything you need to enhance your daily life.</source>
+<target>Découvrez un monde de produits étonnants dans notre magasin en ligne. Nous proposons une large gamme de produits de haute qualité pour répondre à tous vos besoins. Des appareils électroniques aux articles ménagers, nous avons tout ce dont vous avez besoin pour améliorer votre vie quotidienne.</target>
+</trans-unit>
+<trans-unit id="1083197565655582525" datatype="html">
+<source>Start Shopping</source>
+<target>Commencer vos achats</target>
+</trans-unit>
+<trans-unit id="1675111088809005753" datatype="html">
+  <source>Product Name</source>
+  <target>Nom du produit</target>
+</trans-unit>
+<trans-unit id="8894377483833272091" datatype="html">
+  <source>Price</source>
+  <target>Prix</target>
+</trans-unit>
+<trans-unit id="9216117865911519658" datatype="html">
+  <source>Action</source>
+  <target>Action</target>
+</trans-unit>
+<trans-unit id="4814285799071780083" datatype="html">
+  <source>Delete</source>
+  <target>Supprimer</target>
+</trans-unit>
+<trans-unit id="5609220492185313571" datatype="html">
+  <source>Your cart is empty.</source>
+  <target>Votre panier est vide.</target>
+</trans-unit>
+<trans-unit id="2821179408673282599" datatype="html">
+  <source>Home</source>
+  <target>Accueil</target>
+</trans-unit>
+<trans-unit id="6707361102856436710" datatype="html">
+  <source>Products</source>
+  <target>Produits</target>
+</trans-unit>
+<trans-unit id="1184053335380431531" datatype="html">
+  <source>Product Categories</source>
+  <target>Catégories de produits</target>
+</trans-unit>
+<trans-unit id="7730018952284716553" datatype="html">
+  <source>Tablets</source>
+  <target>Tablettes</target>
+</trans-unit>
+<trans-unit id="5762151072276461448" datatype="html">
+  <source>Phones</source>
+  <target>Téléphones</target>
+</trans-unit>
+<trans-unit id="8618868666624269972" datatype="html">
+  <source>Computers</source>
+  <target>Ordinateurs</target>
+</trans-unit>
+<trans-unit id="5133287683090293412" datatype="html">
+  <source>Logout</source>
+  <target>Déconnexion</target>
+</trans-unit>
+<trans-unit id="6581553898051050183" datatype="html">
+  <source>Contact us for more information</source>
+  <target>Contactez-nous pour plus d'informations</target>
+</trans-unit>
+<trans-unit id="8722846418354482005" datatype="html">
+  <source>Phone: 0635185425</source>
+  <target>Téléphone: 0635185425</target>
+</trans-unit>
+<trans-unit id="6871151324932366999" datatype="html">
+  <source>Edit Product</source>
+  <target>Modifier le produit</target>
+</trans-unit>
+<trans-unit id="7658402240953727096" datatype="html">
+  <source>Name:</source>
+  <target>Nom :</target>
+</trans-unit>
+<trans-unit id="6996799422725544865" datatype="html">
+  <source>Description:</source>
+  <target>Description :</target>
+</trans-unit>
+<trans-unit id="6516656068444122993" datatype="html">
+  <source>Quantity:</source>
+  <target>Quantité :</target>
+</trans-unit>
+<trans-unit id="2160195252594102717" datatype="html">
+  <source>Price:</source>
+  <target>Prix :</target>
+</trans-unit>
+<trans-unit id="7501118874506324997" datatype="html">
+  <source>Category:</source>
+  <target>Catégorie :</target>
+</trans-unit>
+<trans-unit id="2484003251853825332" datatype="html">
+  <source>Upload Image:</source>
+  <target>Télécharger l'image :</target>
+</trans-unit>
+<trans-unit id="2220477572935143486" datatype="html">
+  <source>Edit Product</source>
+  <target>Modifier le produit</target>
+</trans-unit>
+<trans-unit id="3347982024221345780" datatype="html">
+  <source>Please log in to your account</source>
+  <target>Veuillez vous connecter à votre compte</target>
+</trans-unit>
+<trans-unit id="5248717555542428023" datatype="html">
+  <source>Username</source>
+  <target>Nom d'utilisateur</target>
+</trans-unit>
+<trans-unit id="1431416938026210429" datatype="html">
+  <source>Password</source>
+  <target>Mot de passe</target>
+</trans-unit>
+<trans-unit id="2336550011721758066" datatype="html">
+  <source>Login</source>
+  <target>Se connecter</target>
+</trans-unit>
+<trans-unit id="1479499506217434996" datatype="html">
+  <source>If you don't have an account</source>
+  <target>Si vous n'avez pas de compte</target>
+</trans-unit>
+<trans-unit id="1466012768716286509" datatype="html">
+  <source>Register</source>
+  <target>S'inscrire</target>
+</trans-unit>
+<trans-unit id="2727496946419791472" datatype="html">
+  <source>Forgot Password?</source>
+  <target>Mot de passe oublié ?</target>
+</trans-unit>
+<trans-unit id="1088075587003437298" datatype="html">
+  <source>Create a new product</source>
+  <target>Créer un nouveau produit</target>
+</trans-unit>
+<trans-unit id="4902817035128594900" datatype="html">
+  <source>Description</source>
+  <target>Description</target>
+</trans-unit>
+<trans-unit id="6762504134540024018" datatype="html">
+  <source>Quantity</source>
+  <target>Quantité</target>
+</trans-unit>
+<trans-unit id="1806667489382256324" datatype="html">
+  <source>Category</source>
+  <target>Catégorie</target>
+</trans-unit>
+<trans-unit id="5408055341384826020" datatype="html">
+  <source>Create Product</source>
+  <target>Créer un produit</target>
+</trans-unit>
+<trans-unit id="8883809582278207092" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Show more<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
+        <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Afficher plus<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/product-details/product-details.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2536830073000085006" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b &gt;"/>Prix : <x id="INTERPOLATION" equiv-text="{{ product.price }}"/> $<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
+        <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b &gt;"/>Prix : <x id="INTERPOLATION" equiv-text="{{ product.price }}"/> $<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/product-details/product-details.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="363844493675202114" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Hide details<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
+        <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Masquer les détails<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/product-details/product-details.component.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3228303734702633439" datatype="html">
+        <source>Quantity available: <x id="INTERPOLATION" equiv-text="{{ product.quantity }}"/></source>
+        <target>Quantité disponible : <x id="INTERPOLATION" equiv-text="{{ product.quantity }}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/product-details/product-details.component.html</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4308928512360561016" datatype="html">
+        <source> Product out of stock! </source>
+        <target> Produit en rupture de stock ! </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/product-details/product-details.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="273057950586819423" datatype="html">
+        <source> Remaining quantity less than 5! </source>
+        <target> Quantité restante inférieure à 5 ! </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/product-details/product-details.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6041344013318328107" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>On sale<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
+        <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>En promotion<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/product-details/product-details.component.html</context>
+          <context context-type="linenumber">29,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3340499751129543153" datatype="html">
+        <source> Product added to cart successfully! </source>
+        <target> Produit ajouté au panier avec succès ! </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/product-details/product-details.component.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/product-list/product-list.component.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1790234586531719509" datatype="html">
+        <source> Buy </source>
+        <target> Acheter </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/product-details/product-details.component.html</context>
+          <context context-type="linenumber">41,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1267967133679326155" datatype="html">
+        <source>Create Account</source>
+        <target>Créer un compte</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register/register.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6631334172623029500" datatype="html">
+        <source>Email:</source>
+        <target>Email :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register/register.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6865009229971482891" datatype="html">
+  <source>Password:</source>
+  <target>Mot de passe :</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/register/register.component.html</context>
+    <context context-type="linenumber">13,14</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="490171116031324854" datatype="html">
+  <source>The password must contain at least 8 characters.</source>
+  <target>Le mot de passe doit contenir au moins 8 caractères.</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/register/register.component.html</context>
+    <context context-type="linenumber">15,16</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="539810244244331475" datatype="html">
+  <source>Confirm Password:</source>
+  <target>Confirmer le mot de passe :</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/register/register.component.html</context>
+    <context context-type="linenumber">19,20</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="3301086086650990787" datatype="html">
+  <source>Register</source>
+  <target>S'inscrire</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/register/register.component.html</context>
+    <context context-type="linenumber">24,25</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="840692109692540367" datatype="html">
+  <source>Sign In</source>
+  <target>Se connecter</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+    <context context-type="linenumber">5,6</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="1104515725787228062" datatype="html">
+  <source>Welcome to our platform</source>
+  <target>Bienvenue sur notre plateforme</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+    <context context-type="linenumber">15,16</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="4474750461995412653" datatype="html">
+  <source>Discover a world of amazing products in our online store. We offer a wide range of high-quality products to meet all your needs. From electronics to household items, we have everything you need to enhance your daily life.</source>
+  <target>Découvrez un monde de produits incroyables dans notre magasin en ligne. Nous proposons une large gamme de produits de haute qualité pour répondre à tous vos besoins. De l'électronique aux articles ménagers, nous avons tout ce dont vous avez besoin pour améliorer votre vie quotidienne.</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+    <context context-type="linenumber">16,17</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="1083197565655582525" datatype="html">
+  <source>Start Shopping</source>
+  <target>Commencer les achats</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+    <context context-type="linenumber">17,18</context>
+  </context-group>
+</trans-unit>
+
