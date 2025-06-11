@@ -1,0 +1,25 @@
+.cart-heading {
+  margin-top: 20px; /* Espacement au début */
+  color: white; /* Couleur du texte en blanc */
+}
+
+.cart-item {
+  margin-top: 10px; /* Espacement entre les éléments du panier */
+  color: white; /* Couleur du texte en blanc */
+
+}
+
+.cart-label {
+  font-weight: bold; /* Texte en gras pour les étiquettes */
+}
+
+
+.total-price {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #007bff; /* Couleur de fond bleue */
+  color: #fff; /* Texte en blanc */
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
