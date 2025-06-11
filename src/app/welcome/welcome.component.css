@@ -1,0 +1,47 @@
+.navbar {
+  background: linear-gradient(to right, #13014680, rgb(93, 193, 218));
+}
+.welcome-section {
+
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.welcome-section .container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcome-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #f7f7f7; /* Couleur de texte */
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.welcome-text p {
+  font-size: 1.2rem;
+  color: #ffffff; /* Couleur de texte légèrement plus foncée */
+}
+
+/*
+    .gradient-bg {
+        background: linear-gradient(to right, #38e22980, rgb(14, 6, 90));
+        background-size: cover;
+        background-position: center center;
+        height: 80vh;
+      }*/
+
+.hover-effect {
+  transition: transform 0.3s ease;
+}
+
+.hover-effect:hover {
+  transform: scale(1.05); /* Agrandir l'image de 5% au survol */
+}
+
+
+.img-fluid:hover {
+  transform: scale(1.1); /* Zoom au survol */
+}

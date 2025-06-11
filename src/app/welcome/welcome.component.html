@@ -1,1 +1,31 @@
-<p>welcome works!</p>
+
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container justify-content-end">
+    <button (click)="goToRegister()" class="btn btn-outline-light mr-3" style="margin-right: 10px;" i18n>Sign Up</button>
+    <button (click)="goToLogin()" class="btn btn-outline-light" i18n>Sign In</button>
+  </div>
+</nav>
+
+<section class="welcome-section py-5" style="background-image: url('assets/img/img1.jpg');">
+  <div class="container">
+    <div class="row align-items-center ">
+
+      <div class="col-lg-6">
+        <div class="welcome-text text-white">
+          <h1 class="display-4 mb-4" i18n>Welcome to our platform</h1>
+          <p class="lead mb-4" i18n>Discover a world of amazing products in our online store. We offer a wide range of high-quality products to meet all your needs. From electronics to household items, we have everything you need to enhance your daily life.</p>
+          <a href="/register" class="btn btn-outline-light btn-lg" i18n>Start Shopping</a>
+        </div>
+      </div>
+
+
+
+      <div class="col-lg-6 text-center ">
+        <img src="assets/img/welcome.jpg" class="img-fluid rounded hover-effect" alt="Image de bienvenue" style="max-width: 50%; height: auto;">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
