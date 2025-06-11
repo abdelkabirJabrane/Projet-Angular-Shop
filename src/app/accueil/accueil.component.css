@@ -1,0 +1,10 @@
+.styled-text {
+  font-size: 24px;
+  color: #fff; /* Couleur du texte */
+  font-weight: bold;
+}
+
+.styled-description {
+  font-size: 16px;
+  color: #fff; /* Couleur du texte */
+}
