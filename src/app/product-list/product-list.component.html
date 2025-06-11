@@ -1,1 +1,24 @@
-<p>product-list works!</p>
+<div style="margin-top: 70px; ">
+
+  <div class="container " >
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="input-group mb-3">
+          <input type="text" [(ngModel)]="searchKeyword" class="form-control" placeholder="Search by name..." aria-label="Search by name" aria-describedby="button-addon2">
+          <button class="btn btn-primary" type="button" id="button-addon2" (click)="performSearch()"><i class="bi bi-search"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <ul class="list-group products" >
+    <li class="list-group-item product-item"  *ngFor="let product of myArray">
+      <app-product-details [product]="product" (ed)="updateProduct(product)" (del)="deleteProduct(product.id)"  (ach)="purchase1(product)" ></app-product-details>
+      <div *ngIf="showSuccessMessage" class="success-message"  i18n>
+        Product added to cart successfully!
+      </div>
+    </li>
+  </ul>
+</div>
+<br>
