@@ -1,1 +1,59 @@
-<p>product-details works!</p>
+<div class="container-fluid" >
+  <div class="product row">
+    <div class="col-md-2 product-details">
+      <img [src]="product.img" alt="{{ product.name }}" class="img-fluid" />
+    </div>
+    <div class="col-md-6 product-info">
+      <div class="name font-weight-bold custom-product-name"><h4>{{ product.name }}</h4></div>
+      <div *ngIf="!showDetails" class="description text-muted custom-product-description">
+        {{ product.description | slice:0:100 }} <!-- Afficher les 100 premiers caractères de la description -->
+        <button class="btn btn-link text-muted btn-light" (click)="toggleDetails()" i18n><b>Show more</b></button>
+      </div>
+
+      <div *ngIf="showDetails">
+        <p i18n><b >Prix : {{ product.price }} $</b></p>
+        <p>{{ product.description }}</p>
+        <button class="btn btn-link text-muted btn-light" (click)="toggleDetails()" i18n><b>Hide details</b></button>
+      </div>
+
+      <div class="quantity text-danger custom-product-quantity" >
+        <b i18n>Quantity available: {{ product.quantity }}</b>
+        <div *ngIf="product.quantity === 0" class="text-danger" i18n>
+          Product out of stock!
+        </div>
+        <div *ngIf="product.quantity > 0 && product.quantity < 5" class="text-warning" i18n>
+          Remaining quantity less than 5!
+        </div>
+      </div>
+
+      <div *ngIf="product.onPromotion" class="promotion text-success" i18n><b>En promo</b></div>
+      <div *ngIf="showSuccessMessage" class="success-message" i18n>
+        Product added to cart successfully!
+      </div>
+    </div>
+
+    <div class="col-md-3 price">
+      <div>{{ product.price }} $</div>
+      <button class="btn btn-success cta"
+              *ngIf="!auth.hasRole('ADMIN')"
+              [disabled]="product.quantity === 0"
+              (click)=" purchase2(product)" i18n>
+        Buy
+      </button>
+
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <button class="btn btn-danger cta" *ngIf="auth.hasRole('ADMIN')" style="margin-left: 10px;" (click)="onDeleteProduct(product.id)">
+          <i class="bi bi-trash"></i>
+        </button>
+        <button class="btn btn-warning cta" *ngIf="auth.hasRole('ADMIN')" style="margin-left: 10px;" (click)="onUpdate(product)">
+          <i class="bi bi-pencil"><a routerLink='/catalog/edit,item.id'></a></i>
+        </button>
+        <button class="btn btn-info cta" *ngIf="auth.hasRole('ADMIN')" style="margin-left: 10px; font-size: 12px;" (click)="togglePromotion()">
+          <i class="bi bi-tag-fill"></i> {{ product.onPromotion ? 'Remove Promo' : 'Put on Promo' }}
+        </button>
+      </div>
+      <br><br>
+    </div>
+  </div>
+  <div class="spacer"></div> <!-- Espacement entre les divs -->
+</div>

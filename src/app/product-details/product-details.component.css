@@ -1,0 +1,21 @@
+.product-details img {
+  max-width: 80px; /* Taille maximale des images */
+  height: auto; /* Hauteur automatique pour conserver les proportions */
+}
+
+/* Espacement entre les divs */
+.spacer {
+  height: 10px; /* Hauteur de l'espacement */
+}
+
+/* Style pour la taille de la police */
+.custom-product-name,
+.custom-product-description,
+.custom-product-quantity {
+  font-size: 12px; /* Taille de la police pour les éléments spécifiques */
+}
+
+/* Style pour le bouton "Show more" et "Hide details" */
+.btn-link {
+  font-size: 12px; /* Taille de la police des boutons */
+}
