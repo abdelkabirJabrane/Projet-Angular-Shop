@@ -1,0 +1,135 @@
+.custom-link {
+  color: rgb(255, 255, 255); /* Couleur du texte en blanc */
+}
+.fixed-top {
+  position: fixed;
+  width: 100%;
+  z-index: 1000; /* Pour s'assurer que la navbar soit au-dessus de tout le contenu */
+}
+
+/* Ajoutez un padding top au contenu principal pour éviter que le contenu ne soit caché sous la navbar fixe */
+.main-content {
+  padding-top: 70px; /* Ajustez la valeur selon la hauteur de votre navbar */
+}
+
+
+.btn-logout i {
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+/* CSS */
+/* Style de base pour le dropdown */
+.nav-item.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  background-color: #fff; /* Couleur de fond du dropdown */
+  padding: 5px 0;
+  border: 1px solid #ccc; /* Bordure du dropdown */
+}
+
+/* Style pour afficher le dropdown au survol */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Style pour les liens dans le dropdown */
+.dropdown-item {
+  display: block;
+  padding: 10px;
+  color: #333; /* Couleur du texte */
+  text-decoration: none;
+}
+
+/* Style pour les liens au survol */
+.dropdown-item:hover {
+  background-color: #f0f0f0; /* Couleur de fond au survol */
+}
+/* Cible tous les divs dans la page */
+div {
+  /* Ajoutez ici vos styles personnalisés pour le texte */
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333; /* Couleur du texte */
+  line-height: 1.5; /* Hauteur de ligne */
+}
+/*µ*****************************/
+body {
+  background-image: url('../../assets/img/img1.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: calc(100vh + 200px); /* Ajustement de la hauteur minimale avec un surplus de 200px */
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.diamond {
+  transform: rotate(45deg) skew(20deg);
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.diamond span {
+  transform: rotate(-45deg) skew(-20deg);
+}
+
+/* *************** */
+
+
+
+#largeImageContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#largeImage {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+/***********************************/
+
+/* Styles pour positionner le footer */
+body {
+  display: flex;
+  min-height: 100vh; /* Hauteur minimale de la fenêtre visible */
+  flex-direction: column;
+}
+main {
+  flex: 1; /* Faire en sorte que le contenu prenne l'espace disponible */
+}
+footer {
+  flex-shrink: 0; /* Empêcher le footer de réduire la hauteur du contenu */
+}
+
+/***********************************/
+.styled-text {
+  font-size: 24px;
+  color: #fff; /* Couleur du texte */
+  font-weight: bold;
+}
+
+.styled-description {
+  font-size: 16px;
+  color: #fff; /* Couleur du texte */
+}
+
+.navbar {
+  background: linear-gradient(to right, #072a6b, #349bca);
+}

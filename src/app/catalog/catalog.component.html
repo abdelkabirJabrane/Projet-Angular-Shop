@@ -1,1 +1,92 @@
-<p>catalog works!</p>
+<body>
+<nav class="navbar navbar-expand-lg fixed-top" style="background-color:#160952;">
+  <div class="container-fluid">
+
+
+    <a class="navbar-brand d-inline-flex align-items-center justify-content-center rounded-circle" routerLink="/catalog/Accueil" style="width: 40px; height: 40px; background: linear-gradient(to right, #3498db, #1abc9c); color: #fff; font-size: 18px; text-decoration: none; border-radius: 50%; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+      <span style="font-weight: bold;">MyWS</span>
+    </a>
+
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="row w-100"> <!-- Ligne pour diviser en colonnes -->
+        <!-- Colonne 1 -->
+        <div class="col">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link custom-link" aria-current="page" routerLink="/catalog/Accueil" i18n>Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link custom-link" routerLink="/catalog/product" i18n>Products</a>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle custom-link" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"i18n>
+                Product Categories
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" [routerLink]="['/catalog/categorie', 'tablet']" i18n>Tablets</a></li>
+                <li><a class="dropdown-item" [routerLink]="['/catalog/categorie', 'phone']" i18n>Phones</a></li>
+                <li><a class="dropdown-item" [routerLink]="['/catalog/categorie', 'pc']" i18n>Computers</a></li>
+              </ul>
+            </li>
+            @if (authservice.hasRole('USER')) {
+              <li class="nav-item active">
+                <a class="nav-link custom-link" routerLink="/catalog/cart"><i class="bi bi-cart-check-fill text-warning bi-2x"></i></a>
+              </li>}
+
+            @if (authservice.hasRole('ADMIN')) {
+              <li class="nav-item">
+                <a class="nav-link active" routerLink="/catalog/create-product"><i class="bi bi-plus-circle text-white"></i></a>
+              </li>}
+          </ul>
+        </div>
+
+
+        <!-- Colonne 2 -->
+        <div class="col d-flex justify-content-end">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link custom-link">
+                @if (authservice.hasRole('ADMIN')) {
+                  <!-- Petite image avec un lien vers la grande image -->
+                  <a href="../../assets/img/profil.jpg" target="_blank" rel="noopener">
+                    <img id="smallImage" src="../../assets/img/profil.jpg" style="width: 20px; border-radius: 40%;" alt="Custom Logo">
+                  </a>
+                  <!-- Élément pour afficher la grande image -->
+                  <div id="largeImageContainer" style="display: none;">
+                    <img id="largeImage" src="" alt="Large Image">
+                  </div>
+                }
+                {{ authservice.authenticatedUser!.email.split('@')[0] }}
+
+                @if (authservice.hasRole('USER'))  {<i class="bi bi-person-fill text-white"></i>}
+              </a>
+            </li>
+            <li>
+              <button class="btn btn-light" (click)="logout()">
+                <i class="bi bi-box-arrow-right " i18n>   Logout</i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<main>
+  <!-- Votre contenu principal ici -->
+  <router-outlet></router-outlet>
+</main>
+<!-- Pied de page -->
+<footer class="bg-black text-white p-3">
+  <div class="container">
+    <p class="text-center " style="color: white;" i18n>Contact us for more information</p>
+    <p class="text-center "><a href="mailto:ghalimyassine3@gmail.com">ghalimyassine3&#64;gmail.com</a></p>
+    <p class="text-center " style="color: white;" i18n>Phone: 0635185425</p>
+  </div>
+</footer>
