@@ -1,1 +1,44 @@
-<p>login works!</p>
+<section class="gradient-form custom-gradient-form">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100vh">
+      <div class="col-xl-8"> <!-- Réduit la taille du contenu en col-xl-8 -->
+        <div class="card rounded-3 text-black h-100">
+          <div class="row g-0">
+            <div class="col-lg-6">
+              <div class="card-body p-md-4 mx-md-3"> <!-- Ajuste les marges intérieures -->
+                <div class="text-center">
+                  <img src="../../assets/img/img2.png" style="width: 120px;" alt="Custom Logo">
+                </div>
+                <div class="text-danger" *ngIf="errorMessage">{{errorMessage}}</div>
+                <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                  <p class="mb-4"i18n>Please login to your account</p> <!-- Ajoute une marge en bas -->
+                  <div class="form-outline mb-3">
+                    <input type="text" id="username" class="form-control" formControlName="username" autocomplete="username">
+                    <label class="form-label" for="username"i18n>Username</label>
+                  </div>
+                  <div class="form-outline mb-3">
+                    <input type="password" id="password" class="form-control" formControlName="password" autocomplete="current-password">
+                    <label class="form-label" for="password"i18n>Password</label>
+                  </div>
+                  <div class="text-center pt-1 mb-4"> <!-- Ajuste la marge en bas -->
+                    <button type="submit" class="btn btn-primary btn-block fa-lg gradient-custom-2 " (click)="onSubmit()"i18n>Log in</button><br><br>
+                    <p i18n>if u don't have an account</p>
+                    <button type="submit" class="btn btn-primary btn-block fa-lg gradient-custom-2" (click)="goToRegister()"i18n>Sign Up</button>
+
+                  </div>
+                  <div class="text-center"> <a class="text-muted" href=""i18n>Forgot password?</a></div>
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
+              <div class="text-white px-3 py-4 p-md-5 mx-md-4">
+                <h4 class="mb-4"i18n>Discover a World of Amazing Products</h4>
+                <p class="small mb-0"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
