@@ -1,1 +1,42 @@
-<p>product-create works!</p>
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <form (ngSubmit)="onSubmit()" class="bg-black border-0 rounded p-3 text-white">
+        <h3 class="mb-3 text-center"i18n>Create a new product</h3>
+        <div class="form-group">
+          <label for="name" class="form-label fs-6"i18n>Product Name</label>
+          <input type="text" class="form-control fs-6" id="name" [(ngModel)]="newProduct.name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="description" class="form-label fs-6"i18n>Description</label>
+          <textarea class="form-control fs-6" id="description" [(ngModel)]="newProduct.description" name="description" required></textarea>
+        </div>
+        <div class="form-row">
+          <div class="col-md-6 form-group">
+            <label for="quantity" class="form-label fs-6"i18n>Quantity</label>
+            <input type="number" class="form-control fs-6" id="quantity" [(ngModel)]="newProduct.quantity" name="quantity" required>
+          </div>
+          <div class="col-md-6 form-group">
+            <label for="price" class="form-label fs-6"i18n>Price</label>
+            <input type="number" class="form-control fs-6" id="price" [(ngModel)]="newProduct.price" name="price" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="category" class="form-label fs-6"i18n>Category</label>
+          <input type="text" class="form-control fs-6" id="category" [(ngModel)]="newProduct.category" name="category" required>
+        </div>
+        <div class="form-group">
+          <label for="imageUpload"i18n>Upload Image:</label>
+          <input type="file" class="form-control" id="imageUpload" (change)="onImageUpload($event)"i18n>
+        </div>
+        <div *ngIf="imagePreview">
+          <img [src]="imagePreview" alt="Image Preview" class="img-fluid mt-3">
+        </div>
+        <br>
+        <div class="text-center">
+          <button type="submit" class="btn btn-warning fs-6"i18n>Create Product</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div><br>
