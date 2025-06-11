@@ -1,0 +1,49 @@
+/* Cible tous les divs dans la page */
+/* Styles pour toutes les divs */
+
+div {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #201e1e;
+  line-height: 1.5;
+}
+
+/* Styles pour la div spécifique avec la classe .special-div */
+
+
+/* Style personnalisé pour la barre de recherche */
+.input-group {
+  max-width: 500px; /* Largeur maximale de la barre de recherche */
+}
+
+.success-message {
+  position: fixed;
+  top: 60px; /* Ajustez la position verticale selon votre mise en page */
+
+  right: 500px; /* Ajustez la position horizontale selon votre mise en page */
+  z-index: 1000; /* Assurez-vous que le message est au-dessus des autres éléments */
+  background-color: #28a745; /* Couleur de fond verte */
+  color: #fff; /* Texte en blanc */
+  padding: 10px 20px; /* Espacement intérieur du message */
+  border-radius: 5px; /* Bordure arrondie */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Ombre légère */
+  font-size: 16px;
+  font-weight: bold;
+  animation: slideIn 0.5s ease-in-out forwards; /* Animation de glissement */
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-50px); /* Commence en dehors de l'écran vers le haut */
+    opacity: 0; /* Commence invisible */
+  }
+  100% {
+    transform: translateY(0); /* Glisse vers le bas pour apparaître */
+    opacity: 1; /* Devient visible */
+  }
+}
+
+
+
+
+

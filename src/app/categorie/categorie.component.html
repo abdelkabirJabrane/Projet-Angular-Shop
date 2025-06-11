@@ -1,1 +1,12 @@
-<p>categorie works!</p>
+<div style="margin-top: 60px;">
+  <div class="container" style="background-color: white;">
+    <br>
+    <div class="product-list" style="border-color: black;">
+      <li class="list-group-item product-item" *ngFor="let product of filteredProducts; let i = index">
+        <app-product-details [product]="product" (ach)="purchase1(product)"></app-product-details>
+        <hr *ngIf="i < filteredProducts.length - 1">
+      </li>
+    </div>
+  </div>
+  <br>
+</div>
